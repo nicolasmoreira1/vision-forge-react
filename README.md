@@ -54,10 +54,10 @@ IA utilizada como apoio na organização da documentação e na revisão do mate
 
 ## Links de entrega
 
-Substitua os campos abaixo pelos links reais antes da entrega final.
+Links oficiais da entrega:
 
-- GitHub: `INSERIR_URL_DO_REPOSITORIO_AQUI`
-- Vercel: `INSERIR_URL_DA_IMPLANTACAO_AQUI`
+- GitHub: https://github.com/nicolasmoreira1/vision-forge-react
+- Vercel: https://vision-forge-react.vercel.app/
 
 ## Integrantes
 
