@@ -5,11 +5,11 @@ export const siteContent = {
     alt: 'Logo Vision Forge',
   },
   navigation: [
-    { href: '#solucao', label: 'A Solução' },
-    { href: '#publico-alvo', label: 'Público-Alvo' },
-    { href: '#galeria', label: 'Galeria' },
-    { href: '#equipe', label: 'Nossa Equipe' },
-    { href: '#contato', label: 'Contato' },
+    { href: '/#solucao', label: 'A Solução' },
+    { href: '/#publico-alvo', label: 'Público-Alvo' },
+    { href: '/#galeria', label: 'Galeria' },
+    { href: '/#equipe', label: 'Nossa Equipe' },
+    { href: '/#contato', label: 'Contato' },
   ],
   solution: {
     title: 'A Solução',

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Fotossíntese e cadeia respiratória",
+    "subject": "Biologia",
+    "capturedAt": "2026-10-28",
+    "summary": "Resumo gerado a partir da foto da lousa: etapas da fase clara e fase escura, com os reagentes e produtos de cada uma.",
+    "exercises": 6
+  },
+  {
+    "id": 2,
+    "title": "Funções do segundo grau",
+    "subject": "Matemática",
+    "capturedAt": "2026-10-27",
+    "summary": "Mapa mental com a fórmula de Bhaskara, análise do discriminante e o passo a passo para encontrar o vértice da parábola.",
+    "exercises": 8
+  },
+  {
+    "id": 3,
+    "title": "Revolução Industrial: as três fases",
+    "subject": "História",
+    "capturedAt": "2026-10-26",
+    "summary": "Linha do tempo extraída da página do livro, separando as inovações técnicas e os impactos sociais de cada fase.",
+    "exercises": 5
+  },
+  {
+    "id": 4,
+    "title": "Leis de Newton",
+    "subject": "Física",
+    "capturedAt": "2026-10-24",
+    "summary": "Resumo das três leis com os exemplos do quadro e a diferença entre força resultante e força de reação.",
+    "exercises": 7
+  },
+  {
+    "id": 5,
+    "title": "Ligações químicas",
+    "subject": "Química",
+    "capturedAt": "2026-10-23",
+    "summary": "Comparação entre ligação iônica, covalente e metálica, com a regra do octeto aplicada aos exemplos da aula.",
+    "exercises": 4
+  },
+  {
+    "id": 6,
+    "title": "Orações subordinadas adverbiais",
+    "subject": "Português",
+    "capturedAt": "2026-10-21",
+    "summary": "Classificação das nove orações subordinadas adverbiais com as conjunções que identificam cada tipo.",
+    "exercises": 9
+  },
+  {
+    "id": 7,
+    "title": "Climas do Brasil",
+    "subject": "Geografia",
+    "capturedAt": "2026-10-20",
+    "summary": "Mapa mental dos domínios climáticos brasileiros, relacionando cada clima à vegetação predominante.",
+    "exercises": 5
+  },
+  {
+    "id": 8,
+    "title": "Present perfect x simple past",
+    "subject": "Inglês",
+    "capturedAt": "2026-10-18",
+    "summary": "Quadro comparativo dos dois tempos verbais, com os marcadores temporais que indicam quando usar cada um.",
+    "exercises": 10
+  }
+]

@@ -1,44 +1,32 @@
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
-import SolutionSection from './components/SolutionSection';
-import AudienceSection from './components/AudienceSection';
-import GallerySection from './components/GallerySection';
-import TeamSection from './components/TeamSection';
-import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import PrivateRoute from './components/PrivateRoute';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Panel from './pages/Panel';
 import { siteContent } from './data/content';
-import useLocalStorage from './hooks/useLocalStorage';
-
-const solutionChecklistItems = [
-  'Tirar uma foto nítida da página ou da lousa.',
-  'Gerar um resumo curto com a ajuda da IA.',
-  'Revisar os exercícios sugeridos logo depois da aula.',
-  'Salvar o mapa mental para estudar mais tarde.',
-];
-
-const solutionChecklistKey = 'vision-forge-solution-checklist';
 
 export default function App() {
-  const [solutionChecklist, setSolutionChecklist] = useLocalStorage(
-    solutionChecklistKey,
-    solutionChecklistItems.map(() => false)
-  );
-
   return (
-    <>
+    <BrowserRouter>
       <Header brand={siteContent.brand} navigation={siteContent.navigation} />
-      <main>
-        <SolutionSection
-          content={siteContent.solution}
-          checklistItems={solutionChecklistItems}
-          checklist={solutionChecklist}
-          setChecklist={setSolutionChecklist}
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route
+          path="/painel"
+          element={
+            <PrivateRoute>
+              <Panel />
+            </PrivateRoute>
+          }
         />
-        <AudienceSection content={siteContent.audience} />
-        <GallerySection content={siteContent.gallery} />
-        <TeamSection content={siteContent.team} />
-        <ContactSection content={siteContent.contact} />
-      </main>
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+
       <Footer content={siteContent.footer} />
-    </>
+    </BrowserRouter>
   );
 }
