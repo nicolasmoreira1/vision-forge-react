@@ -2,3 +2,6 @@ Leonardo Gracioli Barrocal RM571031
 Henrique Vieira Ferreira RM569586
 Lucas Trevisan RM569731
 Nícolas Moreira Silva RM571510
+
+Repositório: https://github.com/nicolasmoreira1/vision-forge-react
+Deploy (Vercel): https://vision-forge-react.vercel.app/
